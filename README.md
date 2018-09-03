@@ -32,7 +32,7 @@ YES
 ****************************************************************************************************
 
 -> Answer to the 3 question ::
-NO
+A COMPLEX NO
 
  - 1.7 and below
 
@@ -56,6 +56,6 @@ NO
          }
 
   NOTE:  Using lambda expression in java 8, the new keyword is not used. Hence a new memory block is not allotted. Which makes
-  it less expensive then the older implementation of java.
+  it less expensive then the older implementation of java. Lambda is an object without identity
 
 *************************************************************************************************
