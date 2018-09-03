@@ -6,12 +6,19 @@
 
 -> Answer for the 1 question ::
 Functional interface
-    -> Functional interface is a interface with only one abstract method
+
+ -> Functional interface is a interface with only one abstract method
+
  Examples of functional interface ::
+
       ** Runnable -> run()
+
       ** Comparator -> compare(t1, t2)
+
       ** FileFilter -> filter(File)
+
  Method of the Object class does not count (As object call is parent call of all class)
+
  Its optional to add @FunctionalInterface
 
 ***********************************************************************************************
