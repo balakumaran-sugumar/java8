@@ -36,18 +36,24 @@ NO
 
  -- 1.7 and below
 
- ** Comparator<String> compare = new Comparator<String>(String str1, String str2){
-      @override
-      public boolean compare(String s1, String s2){
+      ** Comparator<String> compare = new Comparator<String>(String str1, String str2){
+
+           @override
+
+           public boolean compare(String s1, String s2){
+
               return Integer.compare(s1.getLength(), s2.getLength());
-      }
- };
+
+           }
+      };
 
 -- 1.8 using Lambda expression
 
- ** Comparator<String> compare8 = (String str1, String s2) -> {
-      return Integer.compare(str1.length(), s2.length());
-  }
+      ** Comparator<String> compare8 = (String str1, String s2) -> {
+
+           return Integer.compare(str1.length(), s2.length());
+
+         }
 
   NOTE:  Using lambda expression java 8 the new keyword is not used. Hence a new memory block is not alloted, which makes
   it less expensive then the older implementation of java
