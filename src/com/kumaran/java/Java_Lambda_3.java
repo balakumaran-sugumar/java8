@@ -68,7 +68,19 @@ public class Java_Lambda_3 {
         else
             consume.accept("One of the condition fails");
 
+
+        Predicate<String> p4 = Predicate.isEqual("Ganesh");
+
+        if(p4.test("Ganesh1")){
+            consume.accept("The strings are same ...");
+        }else{
+            consume.accept("The strings are not same");
+        }
+
         consume.accept("PREDICATE ************************************* ENDS ");
+
+
+
     }
 
 }
