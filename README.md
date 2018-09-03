@@ -27,14 +27,14 @@ YES
 
  Can be taken as a method parameter and returned by a method
 
- Java_Lambda_2 is a example of the lambda expression as variable
+ Java_Lambda_2.java is a example of the lambda expression as variable
 
 ****************************************************************************************************
 
 -> Answer for the 3 question ::
 NO
 
- -- 1.7 and below
+ - 1.7 and below
 
       ** Comparator<String> compare = new Comparator<String>(String str1, String str2){
 
@@ -47,7 +47,7 @@ NO
            }
       };
 
--- 1.8 using Lambda expression
+- 1.8 using Lambda expression
 
       ** Comparator<String> compare8 = (String str1, String s2) -> {
 
@@ -55,7 +55,7 @@ NO
 
          }
 
-  NOTE:  Using lambda expression java 8 the new keyword is not used. Hence a new memory block is not alloted, which makes
-  it less expensive then the older implementation of java
+  NOTE:  Using lambda expression in java 8, the new keyword is not used. Hence a new memory block is not allotted. Which makes
+  it less expensive then the older implementation of java.
 
 *************************************************************************************************
