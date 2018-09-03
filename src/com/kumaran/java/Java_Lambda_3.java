@@ -68,7 +68,7 @@ public class Java_Lambda_3 {
         else
             consume.accept("One of the condition fails");
 
-
+        // Example of isEquals predicate
         Predicate<String> p4 = Predicate.isEqual("Ganesh");
 
         if(p4.test("Ganesh1")){
