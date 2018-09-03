@@ -1,6 +1,6 @@
-- 1. what is the type of lambda expression ?
+- 1. What is the type of lambda expression ?
 - 2. Can I put lambda in a variable ?
-- 3. Is lambda expression is an object ?
+- 3. Is lambda an object ?
 
 **********************************************************************************************
 
