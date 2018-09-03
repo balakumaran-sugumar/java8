@@ -5,8 +5,7 @@
 **********************************************************************************************
 
 -> Answer for the 1 question ::
-
- it is a functional interface
+Functional interface
     -> Functional interface is a interface with only one abstract method
  Examples of functional interface ::
       ** Runnable -> run()
@@ -17,10 +16,10 @@
 
 ***********************************************************************************************
  -> Answer for the 2 question ::
+YES
 
- YES
  Can be taken as a method parameter and returned by a method
- Above java code is a example of the lambda expression as variable
+ Java_Lambda_2 is a example of the lambda expression as variable
 
 ****************************************************************************************************
 
