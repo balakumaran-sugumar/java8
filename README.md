@@ -7,7 +7,7 @@
 -> Answer for the 1 question ::
 Functional interface
 
- -> Functional interface is a interface with only one abstract method
+ - Functional interface is a interface with only one abstract method
 
  Examples of functional interface ::
 
@@ -26,6 +26,7 @@ Functional interface
 YES
 
  Can be taken as a method parameter and returned by a method
+
  Java_Lambda_2 is a example of the lambda expression as variable
 
 ****************************************************************************************************
@@ -34,7 +35,8 @@ YES
 NO
 
  -- 1.7 and below
- Comparator<String> compare = new Comparator<String>(String str1, String str2){
+
+ ** Comparator<String> compare = new Comparator<String>(String str1, String str2){
       @override
       public boolean compare(String s1, String s2){
               return Integer.compare(s1.getLength(), s2.getLength());
@@ -42,7 +44,8 @@ NO
  };
 
 -- 1.8 using Lambda expression
-  Comparator<String> compare8 = (String str1, String s2) -> {
+
+ ** Comparator<String> compare8 = (String str1, String s2) -> {
       return Integer.compare(str1.length(), s2.length());
   }
 
