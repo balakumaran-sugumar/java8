@@ -3,7 +3,7 @@ package com.kumaran.java;
 import java.io.File;
 import java.io.FileFilter;
 
-public class Java_1 {
+public class Java_Lambda_1 {
 
     public static void main(String ... args) throws InterruptedException{
 
