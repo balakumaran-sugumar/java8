@@ -4,7 +4,7 @@
 
 **********************************************************************************************
 
--> Answer for the 1 question ::
+-> Answer to the 1 question ::
 Functional interface
 
  - Functional interface is a interface with only one abstract method
@@ -22,7 +22,7 @@ Functional interface
  Its optional to add @FunctionalInterface
 
 ***********************************************************************************************
- -> Answer for the 2 question ::
+ -> Answer to the 2 question ::
 YES
 
  Can be taken as a method parameter and returned by a method
@@ -31,7 +31,7 @@ YES
 
 ****************************************************************************************************
 
--> Answer for the 3 question ::
+-> Answer to the 3 question ::
 NO
 
  - 1.7 and below
